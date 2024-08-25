@@ -54,12 +54,13 @@ namespace DesafioFundamentos.Models
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
+
                 //Implementado!!!!!
 
                 int contador = 1;
 
                  foreach(string item in veiculos){
-                    Console.WriteLine($"Carro n°{contador} com a placa {item}");
+                    Console.WriteLine($"O carro N°{contador} com a placa {item} esta estacionado");
                     contador++;
                  }
 
